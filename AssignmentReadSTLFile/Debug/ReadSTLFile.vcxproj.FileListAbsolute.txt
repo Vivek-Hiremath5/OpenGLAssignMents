@@ -1,0 +1,2 @@
+D:\OpenGL\ReadSTLFile\Debug\ReadSTLFile.exe
+D:\OpenGL\AssignmentReadSTLFile\Debug\ReadSTLFile.exe

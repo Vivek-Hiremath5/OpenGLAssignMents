@@ -1,0 +1,50 @@
+﻿Main.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function main
+Main.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "void __cdecl glfw_onKey(struct GLFWwindow *,int,int,int,int)" (?glfw_onKey@@YAXPEAUGLFWwindow@@HHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl glfw_onFramebufferSize(struct GLFWwindow *,int,int)" (?glfw_onFramebufferSize@@YAXPEAUGLFWwindow@@HH@Z)
+Main.obj : error LNK2019: unresolved external symbol glewInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl glfw_onKey(struct GLFWwindow *,int,int,int,int)" (?glfw_onKey@@YAXPEAUGLFWwindow@@HHHH@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwSetWindowTitle referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPEAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl update(double)" (?update@@YAXN@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function "void __cdecl glfw_onMouseMove(struct GLFWwindow *,double,double)" (?glfw_onMouseMove@@YAXPEAUGLFWwindow@@NN@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl update(double)" (?update@@YAXN@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwSetCursorPos referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPEAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initOpenGL(void)" (?initOpenGL@@YA_NXZ)
+Main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Main.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Main.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Main.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Main.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Main.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Main.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Main.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Main.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Main.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Main.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Main.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Main.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Main.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+Main.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Main.obj : error LNK2001: unresolved external symbol glewExperimental
+Mesh.obj : error LNK2019: unresolved external symbol __imp_glDrawArrays referenced in function "public: void __cdecl Mesh::draw(void)" (?draw@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: __cdecl Mesh::~Mesh(void)" (??1Mesh@@QEAA@XZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "public: void __cdecl Mesh::boundingbox(void)" (?boundingbox@Mesh@@QEAAXXZ)
+D:\New\x64\Debug\STLReader.exe : fatal error LNK1120: 49 unresolved externals
